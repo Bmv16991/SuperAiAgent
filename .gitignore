@@ -1,0 +1,50 @@
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Data (trained data = private moat — do NOT publish)
+data/
+*.npz
+*.json.bak
+*.jsonl
+
+# Qdrant local DB
+data/qdrant/
+
+# SentenceTransformers cache
+data/st_cache/
+
+# Episodic memory (personal usage data)
+episodic_memory.json
+deliberation_log.json
+skill_leaderboard.json
+knowledge_gaps.json
+evolution_log.jsonl
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Temp
+*.tmp
+.tmp/
